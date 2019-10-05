@@ -12,6 +12,7 @@ pipeline {
     }
 
     environment {
+        IMMERSIVECONSULTAT_PIPELINE_BUILD = "1"
     }
     stages {
         stage('sanitize build environment') {
